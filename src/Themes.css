@@ -1,0 +1,21 @@
+:root{
+    font-size: 100px;
+    --mainThemeColor: rgb(99, 120, 99);
+    background-color: antiquewhite;
+}
+
+.link {
+    color: rgb(40, 145, 180);
+}
+
+#loading, #pageNotFound{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(206, 103, 172);
+}
