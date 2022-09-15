@@ -2,6 +2,7 @@
     font-size: 100px;
     --mainThemeColor: rgb(99, 120, 99);
     background-color: antiquewhite;
+    max-width: 95%;
 }
 
 .link {
@@ -23,12 +24,12 @@
 
 @media screen and (max-width: 992px) {
     body {
-      font-size: .5rem;
+      font-size: .75rem;
     }
   }
   
   @media screen and (max-width: 600px) {
     body {
-      font-size: .25rem;
+      font-size: .50rem;
     }
   }

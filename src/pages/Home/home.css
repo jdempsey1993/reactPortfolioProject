@@ -1,5 +1,6 @@
 #home h1 {
-    font-size: 2rem;
-    color: var(--mainThemeColor)
+    font-size: 1rem;
+    color: var(--mainThemeColor);
+    max-width: 95%;
 
 }
