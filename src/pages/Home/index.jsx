@@ -7,6 +7,10 @@ return (
          <Link to="/about" className="link">
          About
         </Link>
+        <br></br>
+        <Link to="/projects" className="link">
+         Projects
+        </Link>
     </main>
 )
 }
