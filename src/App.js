@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import './Themes.css';
 const About = lazy(() => import("./pages/About"));
 const Projects = lazy(() => import("./pages/Projects"));
+const Contact = lazy(() => import("./pages/Contact"));
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Route path='/' element={<Home/>} />
       <Route path='/about' element={<About/>} />
       <Route path='/projects' element={<Projects/>} />
+      <Route path='/contact' element={<Contact/>} />
       <Route path='/*' element={<main id="pageNotFound">
         <h1>404: Page Not Found!!!:(</h1>
         <Link to="/" className='link'>Home</Link>

@@ -11,6 +11,10 @@ return (
         <Link to="/projects" className="link">
          Projects
         </Link>
+        <br></br>
+        <Link to="/contact" className="link">
+         Contact
+        </Link>
     </main>
 )
 }
