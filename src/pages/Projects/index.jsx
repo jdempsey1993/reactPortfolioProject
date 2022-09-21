@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import "./projects.css"
-import { Footer } from "../../components/footer/footer"
+import Footer from "../../components/footer"
 const Projects = () =>{
 return (
     <>

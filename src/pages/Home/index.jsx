@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom"
 import "./home.css"
-import { Footer } from "../../components/footer/footer"
+import Footer from "../../components/footer"
+import Header from "../../components/header"
 const Home = () =>{
 return (
     <>
+    <Header />
     <main id="home">
         <h1>Home</h1>
          <Link to="/about" className="link">
