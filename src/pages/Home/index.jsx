@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom"
 import "./home.css"
+import { Footer } from "../../components/footer/footer"
 const Home = () =>{
 return (
+    <>
     <main id="home">
         <h1>Home</h1>
          <Link to="/about" className="link">
@@ -16,6 +18,8 @@ return (
          Contact
         </Link>
     </main>
+    <Footer />
+    </>
 )
 }
 
