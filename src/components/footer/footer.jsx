@@ -4,7 +4,7 @@ export const Footer = () => {
 
         <ul>
             <li>Email:hi@contact.us</li>
-            <li>Phone:hi@contact.us</li>
+            <li>Phone:123-123-1234</li>
         </ul>
            
      
