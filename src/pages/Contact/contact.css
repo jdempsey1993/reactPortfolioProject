@@ -3,3 +3,9 @@
     font-size: 1rem;
     max-width: 95%;
     }
+
+    #contact form{
+        width: 95%;
+        max-width: 1000px;
+        margin: 0 auto
+    }
