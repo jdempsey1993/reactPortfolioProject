@@ -1,19 +1,19 @@
 #home h1 {
     font-size: 2rem;
     color: black;
-    max-width: 95%;
-
+    width: 100%;
+    justify-content: center;
+    align-content: center;
 }
 
 #home .link{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding: 4rem;
-    max-width: 95%;
-    margin: 1px;
+    padding: 10rem;
+    font-size: 3rem;
+    border: 1px solid white;
 }
 
 #aboutLink{
@@ -28,5 +28,5 @@
 
 #contactLink{
     background-color: rgb(233, 57, 34);
-    color: rgb(146, 33, 216);
+    color: rgb(185, 151, 206);
 }

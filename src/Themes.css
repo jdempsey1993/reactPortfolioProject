@@ -1,13 +1,13 @@
 :root{
     font-size: 18px;
     --mainThemeColor: rgb(0, 0, 0);
-    background-color: rgba(250, 235, 215, 0.89);
+    background-color: rgba(247, 230, 208, 0.89);
     font-family: sans-serif;
 }
 
 
 p {
-    color: rgb(84, 82, 82);
+    color: rgb(0, 0, 0);
     
 }
 
