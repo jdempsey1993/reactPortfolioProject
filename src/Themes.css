@@ -27,6 +27,17 @@ p {
     color: rgb(206, 103, 172);
 }
 
+#pageNotFound a.link{
+text-decoration: none;
+color:rgb(40, 145, 180);
+}
+
+#pageNotFound a.link:hover{
+  text-decoration: underline;
+  color: cornflowerblue;
+  font-style: italic;
+  }
+  
 
 .navLink { 
 
