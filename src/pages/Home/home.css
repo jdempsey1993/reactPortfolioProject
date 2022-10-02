@@ -1,6 +1,32 @@
 #home h1 {
-    font-size: 1rem;
-    color: var(--mainThemeColor);
+    font-size: 2rem;
+    color: black;
     max-width: 95%;
 
+}
+
+#home .link{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 4rem;
+    max-width: 95%;
+    margin: 1px;
+}
+
+#aboutLink{
+    background-color: rgb(41, 156, 118);
+    color: rgb(144, 50, 50);
+}
+
+#projectLink{
+    background-color: rgb(233, 187, 34);
+    color: rgb(33, 145, 60);
+}
+
+#contactLink{
+    background-color: rgb(233, 57, 34);
+    color: rgb(146, 33, 216);
 }

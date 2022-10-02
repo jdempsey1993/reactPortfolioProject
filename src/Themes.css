@@ -1,7 +1,7 @@
 :root{
     font-size: 18px;
-    --mainThemeColor: rgb(99, 120, 99);
-    background-color: antiquewhite;
+    --mainThemeColor: rgb(0, 0, 0);
+    background-color: rgba(250, 235, 215, 0.89);
     font-family: sans-serif;
 }
 
