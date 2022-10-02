@@ -1,5 +1,5 @@
 #contact h1{
-    color: rgb(20, 47, 167);
+    color: rgb(185, 151, 206);
     font-size: 1rem;
     max-width: 95%;
     }
@@ -8,4 +8,26 @@
         width: 95%;
         max-width: 1000px;
         margin: 0 auto
+    }
+
+
+
+    #contact {
+        background-color:  rgb(233, 57, 34);
+        padding: 8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    
+    #contact .link {
+        text-decoration: none;
+        color: rgb(185, 151, 206);
+
+    }
+    
+    #contact .link:hover {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
     }

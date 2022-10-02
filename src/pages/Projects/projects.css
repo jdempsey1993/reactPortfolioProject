@@ -1,4 +1,24 @@
 #projects h1{
-    color: rgb(241, 170, 39);
+    color: rgb(33, 145, 60);
     font-size: 1rem;
+}
+
+
+#projects {
+    background-color: rgb(233, 187, 34);
+    padding: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#projects .link {
+    text-decoration: none;
+    color: rgb(33, 145, 60);
+}
+
+#projects .link:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
