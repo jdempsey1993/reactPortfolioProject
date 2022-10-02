@@ -1,10 +1,12 @@
-.footer p,h1{
+.footer h1{
     font-size: 2rem;
     color:  rgb(40, 145, 180);
-    font-family: sans-serif;
 }
 
 .footer p{
     display: flex;
     flex-direction: column;
+    font-family: 'Lato';
+    color: rgb(40, 145, 180);
+    font-size: 2rem;
 }

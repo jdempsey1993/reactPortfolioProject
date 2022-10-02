@@ -1,14 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
 :root{
     font-size: 18px;
     --mainThemeColor: rgb(0, 0, 0);
     background-color: rgba(246, 221, 189, 0.89);
-    font-family: sans-serif;
+    font-family: "Arvo";
 }
 
 
 p {
     color: rgb(0, 0, 0);
-    
+    font-family: "Lato";
 }
 
 #loading, #pageNotFound{
@@ -34,11 +38,10 @@ p {
 
 .navLink:hover {
  color: cornflowerblue;
+font-style: italic;
+text-decoration: underline;
 }
 
-/* nav .active {
-  color: red;
-} */
 
 @media screen and (max-width: 992px) {
     body {
@@ -49,6 +52,10 @@ p {
   @media screen and (max-width: 600px) {
     body {
       font-size: 1rem;
+    }
+
+    header {
+      font-size: .75rem;
     }
   }
 
