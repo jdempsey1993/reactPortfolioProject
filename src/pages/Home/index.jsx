@@ -7,7 +7,6 @@ return (
     <>
     <Header />
     <main id="home">
-        <h1>Home</h1>
          <Link to="/about" className="link" id="aboutLink">
          About
         </Link>
