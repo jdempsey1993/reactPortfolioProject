@@ -7,9 +7,7 @@ return (
     <>
     <Header />
     <main id="home">
-         <Link to="/about" className="link" id="aboutLink">
-         About
-        </Link>
+         
         <br></br>
         <Link to="/projects" className="link" id="projectLink">
          Projects
@@ -17,6 +15,9 @@ return (
         <br></br>
         <Link to="/contact" className="link" id="contactLink">
          Contact
+        </Link>
+        <Link to="/about" className="link" id="aboutLink">
+         About
         </Link>
     </main>
     <Footer />
