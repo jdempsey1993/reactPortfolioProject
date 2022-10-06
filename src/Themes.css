@@ -11,7 +11,7 @@
 
 
 p {
-    color: rgb(0, 0, 0);
+    color: rgb(35, 35, 35);
     font-family: "Lato";
 }
 
@@ -54,10 +54,36 @@ text-decoration: underline;
 }
 
 
+/* Thumbnails */
+
+.thumbnailBox{
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.thumbnailBox img{
+  margin: 5px;
+}
+
+.thumbnail {
+  padding: 5px;
+  transition: .5s;
+}
+
+.thumbnail:hover {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.348);
+  scale: 1.05;
+
+}
+
 @media screen and (max-width: 992px) {
     body {
       font-size: 1rem;
     }
+
   }
   
   @media screen and (max-width: 600px) {
@@ -68,6 +94,7 @@ text-decoration: underline;
     header {
       font-size: .75rem;
     }
+
   }
 
   
