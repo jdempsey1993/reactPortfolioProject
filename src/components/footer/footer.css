@@ -1,8 +1,9 @@
 footer {
     display: flex;
     flex-direction: row;
-    align-content: center;
-    justify-content: center;
+    padding-left: 3vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
 .footer h1{
@@ -34,5 +35,18 @@ a {
   font-style: italic;
   text-decoration: underline;
   }
+  
+
+  @media screen and (max-width: 600px) {
+
+        .footer {
+            display: flex;
+            flex-direction: column;
+            padding-left: 3vw;
+            padding-top: 2vh;
+            padding-bottom: 2vh;
+        }
+     
+    }
   
 

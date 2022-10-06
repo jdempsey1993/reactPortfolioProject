@@ -3,10 +3,10 @@ import "./footer.css"
 const Footer = () => {
     return (
         <footer className="footer">
-
+       
         <section className="contact" vocab="reactportfolio123.netlify.com"typeof="localbusiness">
-        <h1 className="footer">My Portfolio</h1>
-
+        
+        <h2 className="footer">My Portfolio</h2>
             <h2>
                 Contact Me:
             </h2>
