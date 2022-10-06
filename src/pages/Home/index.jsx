@@ -8,14 +8,15 @@ return (
     <Header />
     <main id="home">
          
-        <br></br>
+        
         <Link to="/projects" className="link" id="projectLink">
          Projects
         </Link>
-        <br></br>
+        <br />
         <Link to="/contact" className="link" id="contactLink">
          Contact
         </Link>
+        <br />
         <Link to="/about" className="link" id="aboutLink">
          About
         </Link>
