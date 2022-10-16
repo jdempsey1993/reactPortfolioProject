@@ -1,7 +1,6 @@
 import "./projects.css"
 import Footer from "../../components/footer"
 import Header from "../../components/header"
-import { Container, Row, Col } from 'react-grid-system';
 
 //Images
 import project1thumbnail from '../../media/thumbnails150/imageOne150.jpeg' 
@@ -36,37 +35,6 @@ return (
     height={150} width={150}/></Link>
 
   </div>
-
-{/* <Container fluid>
-  <Row debug>
-  <Col debug className="gridCol"><Link to="#" className="thumbnail"><img src={project1thumbnail}alt="Abstract 1"
-    height={150} width={150}/></Link></Col>
-
-<Col debug><Link to="#" className="thumbnail"><img src={project2thumbnail}alt="Abstract 2"
-    height={150} width={150}/></Link></Col>
-
-<Col debug><Link to="#" className="thumbnail"><img src={project1thumbnail}alt="Abstract 1"
-    height={150} width={150}/></Link></Col>
-  </Row>
-
-  <Row debug>
-   
-  <Col debug><Link to="#" className="thumbnail"><img src={project2thumbnail}alt="Abstract 2"
-    height={150} width={150}/></Link></Col>
-
-<Col debug><Link to="#" className="thumbnail"><img src={project1thumbnail}alt="Abstract 1"
-    height={150} width={150}/></Link></Col>
-
-<Col debug><Link to="#" className="thumbnail"><img src={project2thumbnail}alt="Abstract 2"
-    height={150} width={150}/></Link></Col>
-    </Row>
-
-
-</Container> */}
-
-
-
-
 
     </main>
     <Footer />
